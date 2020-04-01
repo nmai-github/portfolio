@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <title>Healthy Snacks</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5 sticky-top">
+        <a class="navbar-brand mr-5" href="index.html"><img src="img/logo.jpg" width="100" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active mr-4">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown mr-4">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="subnavContent">
+                            <ul class="subnavlinks mt-4">
+                                <li class="float-left">
+                                    <p>Chips & Crackers</p>
+                                    <ul class="pl-0">
+                                        <li class="mb-3"><a href="laiki.html">Laiki Rice Crackers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="float-left">
+                                    <p>Gluten Free Snacks</p>
+                                    <ul class="pl-0">
+                                        <li class="mb-3"><a href="inka.html">Inka Plantain Chips</a></li>
+                                    </ul>
+                                </li>
+                                <li class="float-left">
+                                    <p>Snacks for Kids</p>
+                                    <ul class="pl-0">
+                                        <li class="mb-3"><a href="annies.html">Annie's Organic Bunny Fruit Snacks</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0 ml-2" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid content" id="product-section">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="carouselInka" class="carousel slide" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active mt-4">
+                            <img class="d-block m-auto w-40" src="img/inka-front.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item mt-3">
+                            <img class="d-block m-auto w-40" src="img/inka-back.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item mt-4">
+                            <img class="d-block m-auto w-40" src="img/inka-facts.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselInka" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselInka" role="button" data-slide="next">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 pr-5">
+                <div class="row">
+                    <div class="col-md-12 mt-5 mobile-center">
+                        <h2 class="font-weight-bold">Inka Sea Salt Plantain Chips</h2>
+                        <p>Inka Crops uses carefully selected, high quality Plantains that are sliced and fried in pure
+                            palm oil for a light and crispy snack that can be enjoyed straight from the bag.</p>
+                        <a class="btn btn-green"
+                            href="https://www.amazon.com/Inka-Crops-Plantain-Flavor-Ounces/dp/B07PX9WZKH"
+                            target="_blank" role="button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-5">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-details-tab" data-toggle="tab"
+                                    href="#nav-details" role="tab" aria-controls="nav-details"
+                                    aria-selected="true">Details</a>
+                                <a class="nav-item nav-link" id="nav-ingredients-tab" data-toggle="tab"
+                                    href="#nav-ingredients" role="tab" aria-controls="nav-ingredients"
+                                    aria-selected="false">Ingredients</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active p-3 mb-4" id="nav-details" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <ul>
+                                    <li>Contains 12 bags</li>
+                                    <li>4 ounce each bag</li>
+                                    <li>All Natural. Low in Sodium</li>
+                                    <li>Non-GMO</li>
+                                    <li>Gluten-Free</li>
+                                    <li>0g Trans Fat Per Serving</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade p-3 mb-4" id="nav-ingredients" role="tabpanel"
+                                aria-labelledby="nav-ingredients-tab">
+                                <p>Plantain, palm oil and sea salt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end container -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-white small">
+                    ©2020 Healthy Snacks. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
